@@ -270,11 +270,11 @@ button:hover {
 }
 
 .see-more {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     display: inline-block;
     margin-top: 21px;
     padding: 10px 37px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
     color: black;
     border: none;
     background-color: transparent;
@@ -364,7 +364,6 @@ padding-left: 22px;
 
 
 .footer-nav a {
-    text-decoration: none;
     color: black;
     text-transform: lowercase;
     text-decoration: underline;
