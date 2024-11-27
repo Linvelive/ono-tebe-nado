@@ -113,9 +113,9 @@ header {
 
 
 .cover-words {
-    color: white;
-    font-size: 100px;
     font-family: 'Raleway-Bold', sans-serif;
+    font-size: 100px;
+    color: white;
     text-transform: uppercase;
     z-index: 2;
     display: flex;
