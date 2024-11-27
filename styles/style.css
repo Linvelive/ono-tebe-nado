@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
-    text-underline-offset: 5px
+    text-underline-offset: 5px;
 }
 
 .nav {
@@ -76,13 +76,13 @@ header {
     text-decoration: none;
 }
 
-
 .contacts {
     flex-direction: column;
     line-height: 24.3px;
     padding-right: 39px;
     padding-top: 5px;
 }
+
 
 .hero {
     background-image: url('../images/cover.jpg');
@@ -173,6 +173,7 @@ header {
     letter-spacing: 2px;
 }
 
+
 .hero-footer {
     color: white;
     display: flex;
@@ -206,6 +207,7 @@ button:hover {
     color: white;
     cursor: pointer;
 }
+
 
 .lots {
     background-color: white;
@@ -308,9 +310,9 @@ button:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-align: left;
-padding-top: 99px;
-padding-left: 66px;
-line-height: 24.1px;
+    padding-top: 99px;
+    padding-left: 66px;
+    line-height: 24.1px;
 }
 
 
@@ -320,8 +322,8 @@ line-height: 24.1px;
     font-size: 40px;
     text-transform: uppercase;
     display: flex;
-padding-top: 128px;
-padding-left: 22px;
+    padding-top: 128px;
+    padding-left: 22px;
 }
 
 .about-logo-circle {
@@ -369,7 +371,7 @@ padding-left: 22px;
     text-decoration: underline;
     display: flex;
     justify-content: center;
-    padding-left:32px;
+    padding-left: 32px;
 }
 
 .footer-nav a:hover {
