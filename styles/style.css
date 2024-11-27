@@ -311,8 +311,6 @@ button:hover {
 padding-top: 99px;
 padding-left: 66px;
 line-height: 24.1px;
-    /* width: 649px; */
-    /* flex-direction: column; */
 }
 
 
@@ -362,9 +360,6 @@ padding-left: 22px;
 
 .contact-info {
     line-height: 24.3px;
-    /* margin: 5px 0;
-    font-size: 14px; */
-
 }
 
 
@@ -376,7 +371,6 @@ padding-left: 22px;
     display: flex;
     justify-content: center;
     padding-left:32px;
-    /* gap: 50px; */
 }
 
 .footer-nav a:hover {
