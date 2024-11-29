@@ -61,14 +61,8 @@ header {
     text-transform: lowercase;
 }
 
-
 .address-item {
-    text-decoration: none;
-}
-
-.address-item-phone,
-.address-item-email {
-    text-decoration: underline;
+    list-style: none;
 }
 
 address {
@@ -179,7 +173,7 @@ address {
     z-index: 2;
 }
 
-.cover-footer p {
+.cover-footer-paragraph {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     padding-left: 26px;
@@ -230,34 +224,40 @@ button:hover {
     list-style: none;
     gap: 23px;
 }
+
 .lot-card {
     position: relative;
     width: 334px;
-    height: 563px ;
+    height: 563px;
     color: white;
     background-position: center;
     background-size: cover;
 }
 
-.lot-card:nth-child(1) {
-    background-image: url('../images/card-lot-01.jpg');
-}
-
-.lot-card:nth-child(2) {
-    background-image: url('../images/card-lot-02.jpg');
-}
-
-.lot-card:nth-child(3) {
-    background-image: url('../images/card-lot-03.jpg');
-}
 
 
 .lot-image {
-    position: absolute;
-    height: 100%;
-    object-fit: cover;
+    /* position: absolute; */
+    /* height: 100%;
+    width: 100%; */
+    display: block;
+    background-size: cover;
+    /* Чтобы изображение заполняло ссылку */
+    background-position: center;
+    /* Центрирование изображения */
 }
 
+.lot-image-1 {
+    background-image: url('../images/card-lot-01.jpg');
+}
+
+.lot-image-2 {
+    background-image: url('../images/card-lot-02.jpg');
+}
+
+.lot-image-3 {
+    background-image: url('../images/card-lot-03.jpg');
+}
 
 .lot-content {
     z-index: 1;
@@ -273,7 +273,7 @@ button:hover {
     font-family: 'Raleway-Bold', sans-serif;
     font-size: 22px;
     margin-bottom: 10px;
-    text-decoration: underline;    /* не поняла почему лишнее, в макете есть underline */
+    text-decoration: underline;
     text-transform: uppercase;
     margin: 0;
     line-height: 120%;
