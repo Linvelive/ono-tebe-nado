@@ -2,7 +2,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     background-color: white;
-    margin: 92px 24px 0 24px;
+    margin: 92px 29px 0 24px;
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
@@ -24,15 +24,13 @@ header {
 }
 
 .logo-img {
-    /* transform: translateX(-50%); */
     width: 148px;
     height: 106px;
     margin-right: 155px
 }
 
-.menu-link {
+.menu {
     color: black;
-    text-decoration: underline;
     text-transform: lowercase;
     letter-spacing: 0.4px;
 }
@@ -69,7 +67,7 @@ address {
     font-style: normal;
     flex-direction: column;
     line-height: 24.3px;
-    padding-right: 39px;
+    padding-right: 32px;
     padding-top: 5px;
 }
 
@@ -81,7 +79,7 @@ address {
     background-position: center;
     position: relative;
     min-height: 757px;
-    margin-top: 96px;
+    margin-top: 91px;
     padding-top: 164px;
     padding-left: 48px;
     padding-bottom: 50px;
@@ -103,7 +101,8 @@ address {
 
 
 .cover-words {
-    font-family: 'Raleway-Bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 100px;
     color: white;
     text-transform: uppercase;
@@ -206,7 +205,8 @@ button:hover {
 }
 
 .lots-header {
-    font-family: 'Raleway-Bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 40px;
     padding-left: 40px;
     text-transform: uppercase;
@@ -237,14 +237,9 @@ button:hover {
 
 
 .lot-image {
-    /* position: absolute; */
-    /* height: 100%;
-    width: 100%; */
     display: block;
     background-size: cover;
-    /* Чтобы изображение заполняло ссылку */
     background-position: center;
-    /* Центрирование изображения */
 }
 
 .lot-image-1 {
@@ -270,7 +265,8 @@ button:hover {
 }
 
 .lot-card-header {
-    font-family: 'Raleway-Bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 22px;
     margin-bottom: 10px;
     text-decoration: underline;
@@ -320,29 +316,32 @@ button:hover {
     gap: 97px
 }
 
-/*  */
+
 .about-text {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-align: left;
-    width: 90%;
-    word-wrap: break-word;
-    word-break: break-word;
-    white-space: normal;
-    padding-left: 66px;
-    line-height: 24.1px;
+    /* width: 90%; */
+    /* word-wrap: break-word;
+    word-break: break-word; */
+    /* white-space: normal; */
+    padding-left: 23px;
+    /* line-height: 24.1px; */
 
 }
 
-/*  */
+.about-text p {
+    margin-bottom: 29px;
+}
 
 
 .about-header {
-    font-family: 'Raleway-Bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
     display: flex;
-    padding-top: 128px;
+    padding-top: 108px;
     padding-left: 22px;
 }
 
@@ -359,8 +358,8 @@ button:hover {
 
 
 .about-logo {
-    padding-top: 26px;
     padding-left: 45px;
+    padding-top: 5px;
 }
 
 
@@ -374,7 +373,7 @@ button:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     display: flex;
-    margin-top: 156px;
+    margin-top: 153px;
     padding: 0 50px 88px;
     text-underline-offset: 5px;
     justify-content: space-between;
@@ -392,10 +391,9 @@ button:hover {
 .footer-nav a {
     color: black;
     text-transform: lowercase;
-    text-decoration: underline;
     display: flex;
     justify-content: center;
-    padding-left: 32px;
+    padding-left: 8px;
 }
 
 .footer-nav a:hover {
@@ -409,9 +407,6 @@ button:hover {
     list-style: none;
 }
 
-/* .social-icons li {
-    display: inline-block; 
-} */
 
 .social-icons a {
     width: 48px;
