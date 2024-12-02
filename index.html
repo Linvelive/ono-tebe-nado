@@ -13,7 +13,7 @@
 
 <body>
   <header id="home">
-    <nav class="nav">
+    <nav class="header-nav">
       <ul class="menu">
         <li><a href="#home" class="link-active">Главная</a></li>
         <li><a href="#lots" class="menu-link">Посмотреть лоты</a></li>
@@ -39,6 +39,7 @@
   </header>
 
   <main>
+    <!-- COVER -->
     <section class="cover">
       <div class="overlay"></div>
       <h1 class="cover-words">
@@ -59,7 +60,6 @@
           <span>д</span>
           <span>о</span>
         </span>
-
       </h1>
       <div class="cover-footer">
         <p class="cover-footer-paragraph">Аукцион вещей, в которые никто не верил</p>
@@ -69,59 +69,55 @@
 
 
     <!-- LOTS -->
-    <section class="lots" id="lots">
+    <section id="lots">
       <h2 class="lots-header">Лоты</h2>
-      <div class="lot-cards">
-        <ul class="cards">
-          <li>
-            <a href="#">
-              <article class="lot-card lot-image lot-image-1">
-                <div class="overlay"></div>
-                <div class="lot-content">
-                  <h3 class="lot-card-header">Фильм режиссёра, который бросил киношколу</h3>
-            </a>
-            <p class="lots-paragraph">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы
-              вы не
-              знали, что режиссёр —
-              Пол Томас Андерсон?</p>
-      </div>
-      </article>
-      </li>
+      <ul class="lot-cards">
 
-      <li>
-        <a href="#">
-          <article class="lot-card lot-image lot-image-2">
+        <li class="lot-card lot-image-a">
+          <a href="#">
             <div class="overlay"></div>
-            <div class="lot-content">
-              <h3 class="lot-card-header">Книга, где описан один скучный день из жизни рекламного агента</h3>
-        </a>
-        <p class="lots-paragraph">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами
-          на
-          древнеанглийский. В ней
-          одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён.
-          И это
-          всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-        </div>
-        </article>
-      </li>
+            <article class="lot-content">
+              <h3 class="lot-card-header">Фильм режиссёра, который бросил киношколу</h3>
+              <p class="lots-paragraph">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы
+                вы не
+                знали, что режиссёр —
+                Пол Томас Андерсон?</p>
+            </article>
+          </a>
+        </li>
 
-      <li>
-        <a href="#">
-          <article class="lot-card lot-image lot-image-3">
+        <li class="lot-card lot-image-b">
+          <a href="#">
+          <div class="overlay"></div>
+          <article class="lot-content">
+            <h3 class="lot-card-header">Книга, где описан один скучный день из жизни рекламного агента</h3>
+            <p class="lots-paragraph">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами
+              на
+              древнеанглийский. В ней
+              одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён.
+              И это
+              всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </p>
+          </article>
+          </a>
+        </li>
+
+        <li class="lot-card lot-image-c">
+          <a href="#">
             <div class="overlay"></div>
-            <div class="lot-content">
+            <article class="lot-content">
               <h3 class="lot-card-header">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-        </a>
-        <p class="lots-paragraph">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
-          инфузорию-туфельку. Никаких
-          полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из
-          революционных
-          работ Кандинского?</p>
-        </div>
-        </article>
-      </li>
+              <p class="lots-paragraph">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
+                инфузорию-туфельку. Никаких
+                полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из
+                революционных
+                работ Кандинского?</p>
+
+            </article>
+          </a>
+        </li>
       </ul>
-      </div>
+
       <a href="#" class="see-more">Посмотреть больше</a>
     </section>
 
@@ -143,7 +139,7 @@
           <p>Слишком сложные или, наоборот,слишком простые.
             Опережающие своё время. В пух и прах растерзанные критиками.
             Непринятые и непонятые. Когда-то они казались просто
-            неудачными. Но, несмотря
+            неудачными. Но , несмотря
             на критику, кажущуюся простоту или сложность, сейчас без этих
             лотов невозможно представить современную культуру. Когда в
             эти вещи не верил никто, продолжали верить их создатели. И
@@ -167,11 +163,14 @@
       </ul>
     </address>
 
-    <ul class="footer-nav">
-      <li><a href="#home" class="link-active">Главная</a></li>
-      <li><a href="#lots" class="menu-link">Посмотреть лоты</a></li>
-      <li><a href="#about" class="menu-link">Об аукционе</a></li>
-    </ul>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#home" class="link-active">Главная</a></li>
+        <li><a href="#lots" class="menu-link">Посмотреть лоты</a></li>
+        <li><a href="#about" class="menu-link">Об аукционе</a></li>
+      </ul>
+    </nav>
+
     <ul class="social-icons">
       <li>
         <a href="#youtube">
