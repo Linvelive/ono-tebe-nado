@@ -228,7 +228,6 @@ button:hover {
 }
 
 
-/* STUPID SHIT */
 .lot-content {
     z-index: 2;
     color: white;
@@ -252,9 +251,6 @@ button:hover {
 .lot-image-c {
     background-image: url('../images/card-lot-03.jpg');
 }
-
-
-
 
 .lot-card-header {
     font-family: 'Raleway', sans-serif;
@@ -305,7 +301,6 @@ button:hover {
 .about-content {
     display: flex;
     flex-direction: column;
-    width: 100%;
     gap: 97px
 }
 
@@ -314,13 +309,7 @@ button:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-align: left;
-    /* width: 90%; */
-    /* word-wrap: break-word;
-    word-break: break-word; */
-    /* white-space: normal; */
     padding-left: 23px;
-    /* line-height: 24.1px; */
-
 }
 
 .about-text p {
