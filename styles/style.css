@@ -107,13 +107,11 @@ address {
     flex-direction: column;
 }
 
-
-.line-top> :nth-child(1) {
+.space-small {
     letter-spacing: 6px;
 }
 
-
-.line-top> :nth-child(2) {
+.space-big {
     letter-spacing: 36px;
 }
 
@@ -124,40 +122,10 @@ address {
 }
 
 
-.line-middle> :nth-child(1) {
-    letter-spacing: 6px;
-}
-
-
-.line-middle> :nth-child(2) {
-    letter-spacing: 6px;
-}
-
-.line-middle> :nth-child(3) {
-    letter-spacing: 36px;
-}
-
 .line-end {
     align-self: flex-end;
     padding-top: 3px;
 }
-
-.line-end> :nth-child(1) {
-    letter-spacing: 36px;
-}
-
-.line-end> :nth-child(2) {
-    letter-spacing: 6px;
-}
-
-.line-end> :nth-child(3) {
-    letter-spacing: 6px;
-}
-
-.line-end> :nth-child(4) {
-    letter-spacing: 2px;
-}
-
 
 .cover-footer {
     color: white;
@@ -238,15 +206,15 @@ button:hover {
 }
 
 
-.lot-image-a {
+.lot-image-film {
     background-image: url('../images/card-lot-01.jpg');
 }
 
-.lot-image-b {
+.lot-image-book {
     background-image: url('../images/card-lot-02.jpg');
 }
 
-.lot-image-c {
+.lot-image-picture {
     background-image: url('../images/card-lot-03.jpg');
 }
 
